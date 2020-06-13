@@ -1,0 +1,11 @@
+﻿CaptureAndSend.obj : error LNK2019: unresolved external symbol __imp_bind referenced in function "private: int __cdecl CaptureVideo::setLocalPort(void)" (?setLocalPort@CaptureVideo@@AEAAHXZ)
+CaptureAndSend.obj : error LNK2019: unresolved external symbol __imp_closesocket referenced in function "public: int __cdecl CaptureVideo::capture_video(void)" (?capture_video@CaptureVideo@@QEAAHXZ)
+CaptureAndSend.obj : error LNK2019: unresolved external symbol __imp_htonl referenced in function "private: int __cdecl CaptureVideo::setLocalPort(void)" (?setLocalPort@CaptureVideo@@AEAAHXZ)
+CaptureAndSend.obj : error LNK2019: unresolved external symbol __imp_htons referenced in function "private: int __cdecl CaptureVideo::setLocalPort(void)" (?setLocalPort@CaptureVideo@@AEAAHXZ)
+CaptureAndSend.obj : error LNK2019: unresolved external symbol __imp_sendto referenced in function "private: void __cdecl CaptureVideo::sendFrame(void const *,int)" (?sendFrame@CaptureVideo@@AEAAXPEBXH@Z)
+CaptureAndSend.obj : error LNK2019: unresolved external symbol __imp_socket referenced in function "public: int __cdecl CaptureVideo::capture_video(void)" (?capture_video@CaptureVideo@@QEAAHXZ)
+CaptureAndSend.obj : error LNK2019: unresolved external symbol __imp_WSAStartup referenced in function "public: int __cdecl CaptureVideo::capture_video(void)" (?capture_video@CaptureVideo@@QEAAHXZ)
+CaptureAndSend.obj : error LNK2019: unresolved external symbol __imp_WSACleanup referenced in function "public: int __cdecl CaptureVideo::capture_video(void)" (?capture_video@CaptureVideo@@QEAAHXZ)
+CaptureAndSend.obj : error LNK2019: unresolved external symbol __imp_WSAGetLastError referenced in function "public: int __cdecl CaptureVideo::capture_video(void)" (?capture_video@CaptureVideo@@QEAAHXZ)
+CaptureAndSend.obj : error LNK2019: unresolved external symbol __imp_getaddrinfo referenced in function "private: void __cdecl CaptureVideo::sendFrame(void const *,int)" (?sendFrame@CaptureVideo@@AEAAXPEBXH@Z)
+C:\Users\H299664\source\repos\OpenCVTest\x64\Debug\OpenCVTest.exe : fatal error LNK1120: 10 unresolved externals
